@@ -1,16 +1,38 @@
-# React + Vite
+# Dynamic Product Filter & Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based mini e-commerce application where users can browse products, filter them by category, and manage a shopping cart.  
+This project was built as part of the **Learnline Assignment – Dynamic Product Filter & Cart**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+###  Product Display
+- Display all products with:
+  - Name  
+  - Category  
+  - Price  
+  - Product Image  
+  - Add to Cart button  
+- Fully responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+###  Category Filtering
+- Filter products by:
+  - **All**
+  - **Electronics**
+  - **Books**
+  - **Clothing**
+- Instant product updates on filter change
 
-## Expanding the ESLint configuration
+###  Shopping Cart
+- Shows all items added to the cart  
+- Displays:
+  - Product name  
+  - Quantity  
+  - Price  
+- Calculates and displays **total amount**  
+- Includes **Remove from Cart** functionality  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
